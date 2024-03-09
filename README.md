@@ -1,3 +1,3 @@
 # React Webshop 
 
-[Demo](https://thomas-horvath.github.io/PK_react_webshop_project/)
+[Demo](https://thomas-horvath.github.io/PK-react-webshop-project/)
