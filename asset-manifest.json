@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PK-react-webshop-project/static/css/main.743ae0b8.css",
+    "main.js": "/PK-react-webshop-project/static/js/main.e0bdf85d.js",
+    "index.html": "/PK-react-webshop-project/index.html",
+    "main.743ae0b8.css.map": "/PK-react-webshop-project/static/css/main.743ae0b8.css.map",
+    "main.e0bdf85d.js.map": "/PK-react-webshop-project/static/js/main.e0bdf85d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743ae0b8.css",
+    "static/js/main.e0bdf85d.js"
+  ]
+}
