@@ -8,13 +8,12 @@ const product1 = { title: "Iphone", price: 600, stock: 2 };
 const product2 = { title: "Xiaomi", price: 400, stock: 7 };
 
 function App() {
-  // komponens létrehozása
-  function Card(props) {
+  // card body component
+  function CardBody(props) {
     const { name, price, stock } = props;
-    console.log(name, price, stock);
 
     return (
-      <div className="card">
+      <>
         <div className="card-title">
           <h2>{name}</h2>
         </div>
@@ -23,30 +22,44 @@ function App() {
           <p>{stock} darab van készleten</p>
           <button>Kosárhoz</button>
         </div>
-      </div>
+      </>
     );
+  }
+
+  // card component
+  function Card(props) {
+    const { children } = props;
+
+    return <div className="card">{children}</div>;
   }
 
   return (
     <div className="App">
-      <h1>Webshop</h1>
-      <Card name={product.title} price={product.price} stock={product.stock} />
-      <Card
-        name={product1.title}
-        price={product1.price}
-        stock={product1.stock}
-      />
-      <Card
-        name={product2.title}
-        price={product2.price}
-        stock={product2.stock}
-      />
-
-      {/* <div className="banner">
-        <img src={banner1} alt="banner" />
-        <img src={banner2} alt="banner" />
-        <img src={banner3} alt="banner" />
-      </div> */}
+      <h1>PK Webshop</h1>
+      <Card>
+        <CardBody
+          name={product.title}
+          price={product.price}
+          stock={product.stock}
+        />
+      </Card>
+      <Card>
+        <CardBody
+          name={product1.title}
+          price={product1.price}
+          stock={product1.stock}
+        />
+      </Card>
+      <Card>
+        <CardBody
+          name={product2.title}
+          price={product2.price}
+          stock={product2.stock}
+        />
+      </Card>
+      <Card>
+        <h2>Ez más tartalom lesz!</h2>
+      </Card>
     </div>
   );
 }
