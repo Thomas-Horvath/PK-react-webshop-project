@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PK-react-webshop-project/static/css/main.933df880.css",
-    "main.js": "/PK-react-webshop-project/static/js/main.2d33a003.js",
+    "main.css": "/PK-react-webshop-project/static/css/main.624c934d.css",
+    "main.js": "/PK-react-webshop-project/static/js/main.37f19137.js",
     "index.html": "/PK-react-webshop-project/index.html",
-    "main.933df880.css.map": "/PK-react-webshop-project/static/css/main.933df880.css.map",
-    "main.2d33a003.js.map": "/PK-react-webshop-project/static/js/main.2d33a003.js.map"
+    "main.624c934d.css.map": "/PK-react-webshop-project/static/css/main.624c934d.css.map",
+    "main.37f19137.js.map": "/PK-react-webshop-project/static/js/main.37f19137.js.map"
   },
   "entrypoints": [
-    "static/css/main.933df880.css",
-    "static/js/main.2d33a003.js"
+    "static/css/main.624c934d.css",
+    "static/js/main.37f19137.js"
   ]
 }
